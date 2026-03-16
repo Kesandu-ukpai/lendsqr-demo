@@ -18,7 +18,7 @@ const config: Record<string, Knex.Config> = {
       database: process.env.DB_NAME || 'demo',
     },
     migrations: {
-      directory: './src/migrations',
+      directory: './src/config/migrations',
       tableName: 'knex_migrations',
     },
     seeds: {
